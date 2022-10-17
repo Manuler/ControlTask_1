@@ -2,7 +2,6 @@
 {
     internal class Program
     {
-
         public static string FindSymLengthOfThree(string[] array)
         {
             string result = string.Empty;
@@ -15,10 +14,10 @@
             }
             return result;
         }
-        static void Main(string[] args)
+
+        private static void Main(string[] args)
         {
             string[] array = { "\"hello\"", "\"world\"", "\"2\"", "\")\"" };
-
 
             Console.WriteLine($"Элементы, длина которых меньше либо равна 3 символа:  {FindSymLengthOfThree(array)}");
         }
